@@ -1,0 +1,20 @@
+name: ClipboardManager
+options:
+  bundleIdPrefix: com.clipboardmanager
+  deploymentTarget:
+    macOS: "13.0"
+settings:
+  base:
+    INFOPLIST_FILE: Resources/Info.plist
+targets:
+  ClipboardManager:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.clipboardmanager.app
+        GENERATE_INFOPLIST_FILE: "NO"
+    info:
+      path: Resources/Info.plist
