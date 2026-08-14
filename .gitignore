@@ -5,3 +5,13 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# 个人笔记与文档
+FEATURE_DOCUMENT.md
+obsidian/
+
+# Xcode 生成工程
+ClipboardManager.xcodeproj/
+
+# 构建产物目录
+ClipboardManager */
